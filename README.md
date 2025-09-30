@@ -66,7 +66,7 @@ $PSVersionTable.PSVersion
 
 ---
 
-## 🚀 Script (Quick Install) - https://github.com/Vastargazing/TERMINAL-Oh-My-Posh-installation-guide/blob/main/install.ps1
+## 🚀 Script (Quick Install) - download install.ps1 from repo
 
 ### One-Command Install (Recommended)
 
