@@ -66,9 +66,45 @@ $PSVersionTable.PSVersion
 
 ---
 
-## 🔧 Installation
+## 🚀 Script (Quick Install) - https://github.com/Vastargazing/TERMINAL-Oh-My-Posh-installation-guide/blob/main/install.ps1
 
-### Step 1: Install Core Tools
+### One-Command Install (Recommended)
+
+Run this in PowerShell **as Administrator**:
+
+```powershell
+irm https://raw.githubusercontent.com/YOUR_USERNAME/powershell-supercharged/main/install.ps1 | iex
+```
+
+### Manual Install
+
+1. Download `install.ps1`
+2. Right-click → **Run with PowerShell**
+3. Follow the prompts
+
+### Custom Install Options
+
+```powershell
+# Choose a different theme
+.\install.ps1 -Theme "agnoster"
+
+# Skip font installation
+.\install.ps1 -SkipFont
+
+# Don't modify profile (manual setup)
+.\install.ps1 -SkipProfile
+```
+
+### After Installation
+
+1. **Restart PowerShell** (close and reopen)
+2. **Set Nerd Font** in Windows Terminal:
+   - `Ctrl+,` → Profile → Appearance → Font → "MesloLGM Nerd Font"
+3. **Start using!** Try `Ctrl+R` to search commands
+
+---
+
+### Manual Step 1: Install Core Tools
 
 Open PowerShell and run each command:
 
